@@ -13,7 +13,6 @@ import {
 
 import { authService } from "../../services";
 import { saveUser } from "../../models/user";
-import { DataStore, Predicates } from "@aws-amplify/datastore";
 import { User, Recipes } from "../../models";
 interface Props {}
 
@@ -40,48 +39,6 @@ export const SignupScreen: React.FC<Props> = () => {
   //   return () => subscription.unsubscribe();
   // });
   //FUNCTIONS
-
-  const addUser = async () => {
-    try {
-      await DataStore.save(
-        new User({
-          name: fields.username,
-          email: fields.email,
-          householdCode: "585-232",
-        })
-      );
-    } catch (error) {
-      console.log("ERR", error);
-    }
-  };
-
-  const fetchUser = async () => {
-    const user = await DataStore.query(User);
-    setUser(user);
-
-    console.log("USER:", user);
-  };
-
-  const testAddRecipe = async () => {
-    await DataStore.save(
-      new Recipes({
-        householdCode: "585-232",
-        name: "Steak",
-        foodCategory: "Breakfast",
-        quantity: "100",
-      })
-    );
-  };
-
-  const reset = async () => {
-    await DataStore.delete(User, Predicates.ALL);
-  };
-
-  const fetchRecipe = async () => {
-    const recipe = await DataStore.query(Recipes);
-
-    setRecipe(recipe);
-  };
 
   const handleSignUp = () => {
     authService.signUp(
@@ -119,7 +76,7 @@ export const SignupScreen: React.FC<Props> = () => {
         style={styles.textInput}
       />
       <Button onPress={handleSignUp} title={"Add User"} />
-      <Button onPress={fetchUser} title={"Get User"} />
+      {/* <Button onPress={fetchUser} title={"Get User"} /> */}
     </View>
   );
 };
