@@ -17,29 +17,16 @@ import {
   View,
   Button,
 } from "react-native";
-import { getAllUsers, openRealm, addUser } from "./src/realm";
-import Realm from "realm";
-import { User } from "./src/realm";
+import { withAuthenticator } from "aws-amplify-react-native";
+import { SignupScreen } from "./src/screens";
+import { NavigationContainer } from "@react-navigation/native";
+import { RootStack } from "./src/routes";
 
 const App = () => {
-  const [user, setUser] = React.useState(getAllUsers());
-
-  const handlePress = () => {
-    addUser("123", "Zach", "Lee", "5858252");
-  };
-  console.log("User", user);
   return (
-    <SafeAreaView
-      style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
-    >
-      <Button
-        title={"Testing"}
-        onPress={() => {
-          setUser(getAllUsers());
-          handlePress();
-        }}
-      />
-    </SafeAreaView>
+    <NavigationContainer>
+      <RootStack />
+    </NavigationContainer>
   );
 };
 const styles = StyleSheet.create({

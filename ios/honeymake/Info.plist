@@ -36,11 +36,11 @@
 		</dict>
 	</dict>
 	<key>NSPhotoLibraryUsageDescription</key>
-		<string>NSPhotoLibraryUsageDescription</string>
+	<string>NSPhotoLibraryUsageDescription</string>
 	<key>NSCameraUsageDescription</key>
-		<string>NSCameraUsageDescription</string>
+	<string>NSCameraUsageDescription</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string/>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Entypo.ttf</string>
@@ -77,6 +77,22 @@
 		<string>Poppins-SemiBoldItalic.ttf</string>
 		<string>Poppins-Thin.ttf</string>
 		<string>Poppins-ThinItalic.ttf</string>
+		<string>Sofia Pro Black Az.otf</string>
+		<string>Sofia Pro Black Italic Az.otf</string>
+		<string>Sofia Pro Bold Az.otf</string>
+		<string>Sofia Pro Bold Italic Az.otf</string>
+		<string>Sofia Pro ExtraLight Az.otf</string>
+		<string>Sofia Pro ExtraLight Italic Az.otf</string>
+		<string>Sofia Pro Light Az.otf</string>
+		<string>Sofia Pro Light Italic Az.otf</string>
+		<string>Sofia Pro Medium Az.otf</string>
+		<string>Sofia Pro Medium Italic Az.otf</string>
+		<string>Sofia Pro Regular Az.otf</string>
+		<string>Sofia Pro Regular Italic Az.otf</string>
+		<string>Sofia Pro Semi Bold Az.otf</string>
+		<string>Sofia Pro Semi Bold Italic Az.otf</string>
+		<string>Sofia Pro UltraLight Az.otf</string>
+		<string>Sofia Pro UltraLight Italic Az.otf</string>
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

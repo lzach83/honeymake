@@ -1,0 +1,27 @@
+type User @model {
+  id: ID!
+  name: String!
+  email: String!
+  householdCode: String!
+  createdAt: String
+  household: Household @connection
+  recipes: [Recipes] @connection(keyName: "byRecipe", fields: ["id"])
+}
+
+type Household @model {
+  households: [User]
+  recipes: [Recipes]
+}
+
+type Recipes
+  @model
+  @key(
+    name: "byRecipe"
+    fields: ["id", "householdCode", "name", "foodCategory", "quantity", "name"]
+  ) {
+  id: ID!
+  householdCode: String
+  quantity: String
+  name: String
+  foodCategory: String
+}

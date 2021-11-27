@@ -30,7 +30,11 @@
 		00E356EE1AD99517003FC87E /* honeymakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = honeymakeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* honeymakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = honeymakeTests.m; sourceTree = "<group>"; };
+		01D5BF1B56244564983B1DCB /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		0984D488933B4F2EAA4F643A /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		0EB666DAD5A60E3CD652D147 /* libPods-honeymake-honeymakeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-honeymake-honeymakeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11BF88500F184ECAB1ECCCEF /* Sofia Pro Regular Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Regular Az.otf"; path = "../assets/fonts/Sofia Pro Regular Az.otf"; sourceTree = "<group>"; };
+		1300C921C07F4AA49DB9AE7A /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* honeymake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = honeymake.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = honeymake/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = honeymake/AppDelegate.m; sourceTree = "<group>"; };
@@ -38,11 +42,39 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = honeymake/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = honeymake/main.m; sourceTree = "<group>"; };
 		1D367A000F3520D8B7E27528 /* Pods-honeymake-honeymakeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-honeymake-honeymakeTests.debug.xcconfig"; path = "Target Support Files/Pods-honeymake-honeymakeTests/Pods-honeymake-honeymakeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D4854CFE66F44819B4F74ED /* Sofia Pro Bold Italic Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Bold Italic Az.otf"; path = "../assets/fonts/Sofia Pro Bold Italic Az.otf"; sourceTree = "<group>"; };
+		23BBA4F607B04B258355B481 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		312935434E36433C5E46F643 /* libPods-honeymake.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-honeymake.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		38F28B503F5F45F2B39663E4 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		45FF9ECB241F4A64A2D154DF /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		4C79558828C64BEAA4EB2B58 /* Sofia Pro Bold Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Bold Az.otf"; path = "../assets/fonts/Sofia Pro Bold Az.otf"; sourceTree = "<group>"; };
 		4DFFCF038CB6FCE6D9838D0F /* Pods-honeymake-honeymakeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-honeymake-honeymakeTests.release.xcconfig"; path = "Target Support Files/Pods-honeymake-honeymakeTests/Pods-honeymake-honeymakeTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E77E3C8F9134CCFA8239662 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		4FE49E22704447858A52C540 /* Sofia Pro UltraLight Italic Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro UltraLight Italic Az.otf"; path = "../assets/fonts/Sofia Pro UltraLight Italic Az.otf"; sourceTree = "<group>"; };
+		57910DF9D2F84A2C8768F30D /* Sofia Pro Medium Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Medium Az.otf"; path = "../assets/fonts/Sofia Pro Medium Az.otf"; sourceTree = "<group>"; };
+		58F3B9E7095C45B4950996B2 /* Sofia Pro Regular Italic Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Regular Italic Az.otf"; path = "../assets/fonts/Sofia Pro Regular Italic Az.otf"; sourceTree = "<group>"; };
+		5ACB3E367031476880F2A6C2 /* Sofia Pro Black Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Black Az.otf"; path = "../assets/fonts/Sofia Pro Black Az.otf"; sourceTree = "<group>"; };
+		62B6E109988049D595ACC848 /* Sofia Pro Medium Italic Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Medium Italic Az.otf"; path = "../assets/fonts/Sofia Pro Medium Italic Az.otf"; sourceTree = "<group>"; };
+		688E1785559343E086E1F6C1 /* Sofia Pro Semi Bold Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Semi Bold Az.otf"; path = "../assets/fonts/Sofia Pro Semi Bold Az.otf"; sourceTree = "<group>"; };
+		74240567D13F47BA903943BD /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = honeymake/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82D601AFD28643D29BA25FE2 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		875EA7DED97F429AA394AE6B /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		8A5B517CB2CA4452A081DEDA /* Sofia Pro Light Italic Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Light Italic Az.otf"; path = "../assets/fonts/Sofia Pro Light Italic Az.otf"; sourceTree = "<group>"; };
 		9558F26999ECC0B2445B5778 /* Pods-honeymake.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-honeymake.debug.xcconfig"; path = "Target Support Files/Pods-honeymake/Pods-honeymake.debug.xcconfig"; sourceTree = "<group>"; };
+		A8DF226F493747198C0E9E5B /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		B3244E06D7B748E68270458F /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		B3884529120C4868A98F910A /* Sofia Pro UltraLight Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro UltraLight Az.otf"; path = "../assets/fonts/Sofia Pro UltraLight Az.otf"; sourceTree = "<group>"; };
+		BC150CF37BCE48E6A82845C0 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		BEBC905DB8574F7DBF65340B /* Sofia Pro Black Italic Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Black Italic Az.otf"; path = "../assets/fonts/Sofia Pro Black Italic Az.otf"; sourceTree = "<group>"; };
+		C182A4153BC946659C041BCE /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		C547D2793DD84201A8598412 /* Sofia Pro Semi Bold Italic Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Semi Bold Italic Az.otf"; path = "../assets/fonts/Sofia Pro Semi Bold Italic Az.otf"; sourceTree = "<group>"; };
+		C827EAE79C574BB98A810099 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		C9C6172C3C1448A490CF2BE2 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		CE9FAB4055754690971E8426 /* Sofia Pro ExtraLight Italic Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro ExtraLight Italic Az.otf"; path = "../assets/fonts/Sofia Pro ExtraLight Italic Az.otf"; sourceTree = "<group>"; };
+		D115D87571434A56919664DB /* Sofia Pro Light Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Light Az.otf"; path = "../assets/fonts/Sofia Pro Light Az.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		EF50D2EBA00C4670BEEAB8F6 /* Sofia Pro ExtraLight Az.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro ExtraLight Az.otf"; path = "../assets/fonts/Sofia Pro ExtraLight Az.otf"; sourceTree = "<group>"; };
 		FDC41A495ABF88578D88A389 /* Pods-honeymake.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-honeymake.release.xcconfig"; path = "Target Support Files/Pods-honeymake/Pods-honeymake.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +154,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BC07C17019D7638AB9D04F52 /* Pods */,
+				96086792894146E49296CE2F /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,6 +170,45 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		96086792894146E49296CE2F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5ACB3E367031476880F2A6C2 /* Sofia Pro Black Az.otf */,
+				BEBC905DB8574F7DBF65340B /* Sofia Pro Black Italic Az.otf */,
+				4C79558828C64BEAA4EB2B58 /* Sofia Pro Bold Az.otf */,
+				1D4854CFE66F44819B4F74ED /* Sofia Pro Bold Italic Az.otf */,
+				EF50D2EBA00C4670BEEAB8F6 /* Sofia Pro ExtraLight Az.otf */,
+				CE9FAB4055754690971E8426 /* Sofia Pro ExtraLight Italic Az.otf */,
+				D115D87571434A56919664DB /* Sofia Pro Light Az.otf */,
+				8A5B517CB2CA4452A081DEDA /* Sofia Pro Light Italic Az.otf */,
+				57910DF9D2F84A2C8768F30D /* Sofia Pro Medium Az.otf */,
+				62B6E109988049D595ACC848 /* Sofia Pro Medium Italic Az.otf */,
+				11BF88500F184ECAB1ECCCEF /* Sofia Pro Regular Az.otf */,
+				58F3B9E7095C45B4950996B2 /* Sofia Pro Regular Italic Az.otf */,
+				688E1785559343E086E1F6C1 /* Sofia Pro Semi Bold Az.otf */,
+				C547D2793DD84201A8598412 /* Sofia Pro Semi Bold Italic Az.otf */,
+				B3884529120C4868A98F910A /* Sofia Pro UltraLight Az.otf */,
+				4FE49E22704447858A52C540 /* Sofia Pro UltraLight Italic Az.otf */,
+				A8DF226F493747198C0E9E5B /* AntDesign.ttf */,
+				B3244E06D7B748E68270458F /* Entypo.ttf */,
+				45FF9ECB241F4A64A2D154DF /* EvilIcons.ttf */,
+				0984D488933B4F2EAA4F643A /* Feather.ttf */,
+				C827EAE79C574BB98A810099 /* FontAwesome.ttf */,
+				C9C6172C3C1448A490CF2BE2 /* FontAwesome5_Brands.ttf */,
+				4E77E3C8F9134CCFA8239662 /* FontAwesome5_Regular.ttf */,
+				23BBA4F607B04B258355B481 /* FontAwesome5_Solid.ttf */,
+				1300C921C07F4AA49DB9AE7A /* Fontisto.ttf */,
+				875EA7DED97F429AA394AE6B /* Foundation.ttf */,
+				74240567D13F47BA903943BD /* Ionicons.ttf */,
+				C182A4153BC946659C041BCE /* MaterialCommunityIcons.ttf */,
+				38F28B503F5F45F2B39663E4 /* MaterialIcons.ttf */,
+				82D601AFD28643D29BA25FE2 /* Octicons.ttf */,
+				01D5BF1B56244564983B1DCB /* SimpleLineIcons.ttf */,
+				BC150CF37BCE48E6A82845C0 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		BC07C17019D7638AB9D04F52 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,7 +217,6 @@
 				1D367A000F3520D8B7E27528 /* Pods-honeymake-honeymakeTests.debug.xcconfig */,
 				4DFFCF038CB6FCE6D9838D0F /* Pods-honeymake-honeymakeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -585,7 +656,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(SDKROOT)/usr/lib/swift\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
-					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -644,7 +714,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"\"$(SDKROOT)/usr/lib/swift\"",
 					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
-					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
 					"\"$(inherited)\"",
 				);
 				MTL_ENABLE_DEBUG_INFO = NO;
