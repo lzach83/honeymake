@@ -1,10 +1,10 @@
 import { Platform } from "react-native";
 
 const primaryFont = {
-  normal: "Avenir-Book",
-  light: "Avenir-Light",
-  medium: "Avenir-Medium",
-  bold: "Avenir-Heavy",
+  normal: "SofiaPro-Black",
+  light: "SofiaPro-Light",
+  medium: "SofiaPro-Medium",
+  bold: "SofiaPro-Bold",
 };
 
 const primaryAndroidFont = {
