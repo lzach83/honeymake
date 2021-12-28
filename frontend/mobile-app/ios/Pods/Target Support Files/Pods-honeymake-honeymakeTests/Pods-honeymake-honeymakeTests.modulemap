@@ -1,0 +1,6 @@
+module Pods_honeymake_honeymakeTests {
+  umbrella header "Pods-honeymake-honeymakeTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

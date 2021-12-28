@@ -1,0 +1,16 @@
+{
+  "folders": [
+    {
+      "name": "🍯API",
+      "path": "../services/api"
+    },
+    {
+      "name": "📱Mobile App",
+      "path": "../frontend/mobile-app"
+    }
+  ],
+  "settings": {
+    "monorepoWorkspace.folders.regex.tools": "^services",
+    "monorepoWorkspace.folders.regex.apps": "^mobile-app"
+  }
+}

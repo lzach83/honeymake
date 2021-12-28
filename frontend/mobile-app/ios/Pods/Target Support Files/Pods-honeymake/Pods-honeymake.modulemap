@@ -1,0 +1,6 @@
+module Pods_honeymake {
+  umbrella header "Pods-honeymake-umbrella.h"
+
+  export *
+  module * { export * }
+}
